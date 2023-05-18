@@ -1,0 +1,53 @@
+git config --global user.email 'aleenalateef@aptechnorth.edu.pk'
+git config --global user.name 'Aleena'
+
+== Check UserName===
+git config --global user.name
+
+== Check Email===
+git config --global user.email
+
+
+== Check git repository status ====
+git status
+
+
+== Initialize git repository ====
+git init
+
+-Create New File in folder
+thn check git status
+
+=== track file or stage file==
+git add --a
+
+==if only one file track ===
+git add first.txt
+
+== commit file ==
+git commit -m "first commit"
+
+==check last commit===
+git log
+
+==
+git remote -v
+
+git remote add origin https://github.com/aleenalateef/demo.git
+ 
+git push -u origin master
+
+====if check current branch========
+git branch 
+==== create new branch=======
+git branch my_new_branch
+-===switch new branch====
+git checkout my_new_branch
+==== push into new branch =====
+git push -u origin my_new_branch
+
+
+git push https://[token]@github.com/[github_username]/[repository_name]
+
+error
+git config --global --add safe.directory '*'
